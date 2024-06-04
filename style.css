@@ -1,0 +1,123 @@
+/* display background color black on navbar scroll */
+.navbarScroll.navbarDark {
+    background-color: rgb(240, 128, 128);
+    font-family: cursive;
+
+.navbar-nav .nav-item .nav-link{
+        color: black;
+    }
+
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+        background-color: rgb(159, 226, 191);
+    }
+}
+
+/* hero background image */
+.bgimage {
+    height:150vh;
+    background: url("image/HOME.png");
+    background-size:cover;
+    position:relative;
+}
+/* text css above hero image*/
+.hero_title {
+    font-size: 2.5rem;
+    font-family: "Times New Roman", Times, serif;
+
+
+}
+.hero_desc {
+    font-size: 17px;
+    text-align: left;
+    text-indent: 10px;
+    text-justify: 10px;
+    font-family: "Times New Roman", Times, serif;
+
+}
+.hero_desc1 {
+    font-size: 16px;
+    text-align: left;
+    text-indent: 10px;
+    text-justify: 10px;
+    font-family: "Times New Roman", Times, serif;
+
+}
+.hero-text {
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:rgb( 144, 12, 63 );
+}
+
+/* spacing on all sections */
+#about, #services, #portfolio, #contact {
+    margin-top: 0rem;
+    padding-top: 3rem;
+} 
+#contact {
+    padding-bottom: 4rem;
+
+}
+/* about section image css */
+.imageAboutPage {
+    width: 100%;
+    display: block;
+    margin-right: auto;
+    width: 350px;
+    height: 350px;
+    float: right;
+    border-radius: 50%;
+    
+}
+.imageservicesPage {
+    width: 100%;
+    display: block;
+    margin-right: auto;
+    width: 350px;
+    height: 350px;
+    float: right;
+    border-radius: 50%;
+    
+}
+
+
+/* services section css */
+.servicesText.card {
+    height: 280px;
+    cursor: pointer;
+  }
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+    float: right;
+}
+.card-title {
+    text-align: center;
+}
+.card:hover .servicesIcon {
+    color: #008000;
+}
+.servicesText:hover {
+    border: 1px solid #008000;
+}
+
+/* social media icons styling */
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-whatsapp:hover, .fa-envelope:hover {
+    color: #008000;
+}
+.fab {
+    color: #000000;
+}
+/* footer styling */
+#footer {
+    background-color: #808080;
+    text-align: center;
+}
